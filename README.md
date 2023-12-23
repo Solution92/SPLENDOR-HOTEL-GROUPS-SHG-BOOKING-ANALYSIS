@@ -244,6 +244,98 @@ The top 11 Countries like Benin, Cambodia, Fiji, etc, all had a Cancellation Rat
 
 The average length of stay for guests varies based on both booking channels and customer types. For instance, “Contract” customers tend to have longer stays when booking through “Corporate” or “Direct” channels. “Transient-Party” customers have the longest stays when booking through “Offline Travel Agents”. The shortest stays are observed in the “Group” customer type across all booking channels.
 
+- Are there patterns in check-out dates that can inform staffing and resource allocation strategies?
+
+![SHG 12](https://github.com/Solution92/SPLENDOR-HOTEL-GROUPS-SHG-BOOKING-ANALYSIS/assets/144762124/d6081347-aace-4629-b5f9-4fe07df02f9c)
+
+The average Length of Stay trended up, resulting in a 600.00% increase between Friday, October 17, 2014, and Thursday, September 14, 2017.  Average Length of Stay started trending up on Monday, September 4, 2017, rising by 135.45% (8.05) in 10 days.  Average Length of Stay jumped from 5.95 to 14 during its steepest incline between Monday, September 4, 2017, and Thursday, September 14, 2017.  
+
+Yes, there are patterns in the check-out dates. The average length of stay tends to increase significantly at the beginning of each quarter and then gradually decreases as the days pass. This pattern can inform staffing and resource allocation by preparing for higher guest volumes at the start of each quarter.
+
+
+#### Impact of Deposit Types:
+
+- How does the presence or absence of a deposit impact the likelihood of cancellations and revenue generation?
+
+![SHG 13](https://github.com/Solution92/SPLENDOR-HOTEL-GROUPS-SHG-BOOKING-ANALYSIS/assets/144762124/9f01f543-0a22-4787-9315-1e423feacd93)
+
+The chart shows that the absence of a deposit is associated with a higher rate of cancellations, with 30K cancellations recorded, and was 82,383.33% higher than Refundable, which had the lowest Sum of Cancellations at 0. When a non-refundable deposit is in place at 14,494, cancellations drop significantly to 14K. There are no recorded cancellations when a refundable deposit is required, indicating that it effectively eliminates cancellations and potentially maximizes revenue generation.
+
+
+- How does the presence or absence of a deposit impact the likelihood of cancellations and **revenue generation?**
+
+![SGH 13](https://github.com/Solution92/SPLENDOR-HOTEL-GROUPS-SHG-BOOKING-ANALYSIS/assets/144762124/cad5e650-a339-4639-b83b-b679bd86c7d7)
+
+The chart shows that the absence of a deposit is associated with the highest revenue generation (positive impact), at 26M. In contrast, non-refundable deposits are associated with significantly lower revenue (4M), and refundable deposits show no revenue generation (0M). This suggests that not requiring a deposit may lead to higher revenues.
+
+
+- Can we identify any patterns in the use of deposit types across different customer segments?
+
+![SHG 15](https://github.com/Solution92/SPLENDOR-HOTEL-GROUPS-SHG-BOOKING-ANALYSIS/assets/144762124/f027ae0a-5c25-4407-8b19-1ea3bde97554)
+
+Regarding patterns in the use of deposit types across different customer segments, the chart shows that the “No Deposit” type is the most common among the customer segments, followed by “Non Refundable,” and there are no customers with “Refundable” deposits.
+
+
+#### Analysis of Corporate Bookings:
+
+-  **What is the proportion of corporate bookings** and how does their Average Daily Rate (ADR) compare to other customer types?
+
+![SGH 16](https://github.com/Solution92/SPLENDOR-HOTEL-GROUPS-SHG-BOOKING-ANALYSIS/assets/144762124/18ea580e-94ec-4162-abfd-274cbb381a6c)
+
+The proportion of corporate bookings is 17.6% with their Average Daily Rate (ADR) is 57.78.
+
+- What is the proportion of corporate bookings, and **how does their Average Daily Rate (ADR) compare to other customer types?**
+
+![SGH 17](https://github.com/Solution92/SPLENDOR-HOTEL-GROUPS-SHG-BOOKING-ANALYSIS/assets/144762124/4b64fc38-bec0-438c-97fd-377ef9f952a3)
+
+The ADR for group customers is 64.17, which is the highest among all customer types. Transient customers have an ADR of 73.47, while Transient-Party customers have an ADR of around 67.86. Contract customers have an ADR of 71.712915.
+
+
+- Are there specific trends or patterns related to corporate bookings that can inform business strategies?
+
+![SGH 16](https://github.com/Solution92/SPLENDOR-HOTEL-GROUPS-SHG-BOOKING-ANALYSIS/assets/144762124/623d6a46-625f-40fe-924d-e4e9dd896e76)
+
+The corporate bookings account for 17.6% of the AVG Daily Rate (ADR). This is a significant portion but not the majority, with online travel agents leading at 22.63%. To inform business strategies, it might be beneficial to explore ways to increase corporate bookings, perhaps by offering specialized packages or incentives tailored to business clients.
+
+
+#### Time-to-Event Analysis:
+
+- How does the time between booking and arrival date (lead time) affect revenue and the likelihood of cancellations? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
