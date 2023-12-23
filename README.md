@@ -4,6 +4,21 @@ Renowned hospitality company SHG aims to improve visitor experiences and streaml
 
 ![SGH image](https://github.com/Solution92/SPLENDOR-HOTEL-GROUPS-SHG-BOOKING-ANALYSIS/assets/144762124/e58641f8-462a-4a78-a982-b66703ae5156)
 
+## Table of Content
+
+- [Project Overview](#project-overview)
+- [Objectives of the Analysis](#objectives-of-the-analysis)
+- [Tools and Technologies](#tools-and-technologies)
+- [Data Source](#data-source)
+- [Data Cleaning and Preparation](#data-cleaning-and-preparation)
+- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis)
+- [Data Analysis](#data-analysis)
+- [Dashboards](#dashboards)
+- [Result and Findings](#result-and-findings)
+- [Recommendation](#recommendation)
+
+
+
 
 ### Project Overview
 
@@ -131,7 +146,7 @@ Total Bookings = COUNTROWS(SHG)
 ~~~
 
 
-### The Dashboards
+### Dashboards
 
 #### Dashboard 1
 
@@ -151,6 +166,7 @@ Total Bookings = COUNTROWS(SHG)
 #### Dashboard 4
 
 ![DB 4](https://github.com/Solution92/SPLENDOR-HOTEL-GROUPS-SHG-BOOKING-ANALYSIS/assets/144762124/ca4cb567-dbaa-4bfb-bf43-38c0d740e6c5)
+
 
 ### Result and Findings
 
@@ -302,13 +318,53 @@ The corporate bookings account for 17.6% of the AVG Daily Rate (ADR). This is a 
 
 - How does the time between booking and arrival date (lead time) affect revenue and the likelihood of cancellations? 
 
+![SHG 18](https://github.com/Solution92/SPLENDOR-HOTEL-GROUPS-SHG-BOOKING-ANALYSIS/assets/144762124/871110d1-ea73-4d4b-b246-f95c604db3d6)
+
+The sum of Revenue and the total Sum of Cancellation are negatively correlated with each other.  0 accounted for 2.71% of Sum of Revenue.  The Sum of Revenue and Sum of Cancellations diverged the most when the Lead Time was 0 and when the Sum of Revenue was 800,823 higher than the Sum of Cancellations. 
 
 
+- Are there specific lead time ranges that are associated with higher customer satisfaction or revenue?
+
+![SGH 18](https://github.com/Solution92/SPLENDOR-HOTEL-GROUPS-SHG-BOOKING-ANALYSIS/assets/144762124/5c60218c-1157-408d-a60c-5fb26f31c0df)
+
+At 8,360,491, Transient had the highest Sum of Lead Time and was 26,217.34% higher than Group, which had the lowest Sum of Lead Time at 31,768.  The sum of Lead Time and the total Sum of Revenue are positively correlated with each other.  Transient accounted for 67.33% of the Sum of Lead Time.  The sum of Revenue and Sum of Lead Time diverged the most when the Customer Type was Transient when the Sum of Revenue was 14,336,202 higher than the Sum of Lead Time.  
 
 
+#### Comparison of Online and Offline Travel Agents:
+
+- What is the revenue contribution of online travel agents compared to offline travel agents?
+
+![SGH 19](https://github.com/Solution92/SPLENDOR-HOTEL-GROUPS-SHG-BOOKING-ANALYSIS/assets/144762124/4e979531-a44d-4186-bf62-1db15cfa42da)
+
+The revenue contribution of online travel agents is 17M (58.29%), while offline travel agents contribute 7M(23.63%)
 
 
+- How do cancellation rates and revenue vary between bookings made through online and offline travel agents?
 
+![SGH 20](https://github.com/Solution92/SPLENDOR-HOTEL-GROUPS-SHG-BOOKING-ANALYSIS/assets/144762124/3ea8aa14-c1c8-4c0c-938e-959b1485c9d0)
+
+The sum of Revenue and Cancellation Rate diverged the most when the Distribution Channel was an Online Travel Agent when the Sum of Revenue was 17,255,189.57 higher than the Cancellation Rate.  Online Travel Agent accounted for 58.29% of Sum of Revenue.
+
+
+### Recommendation
+
+Based on the analysis of Splendor Hotel Group's data, here are recommendations for stakeholders:
+
+- **Diversify Distribution Channels:** Given the declining trend in booking patterns, stakeholders should focus on diversifying distribution channels. While online travel agents dominate, exploring strategies to boost direct bookings and corporate channels can help reduce dependence on specific channels.
+  
+- **Optimize Pricing Strategies:** Prioritize pricing strategies for customer types with higher Average Daily Rates (ADR), such as Group and Transient. Adjusting pricing models for Contract and Transient-Party segments may improve overall revenue generation.
+Geographical Focus: Allocate resources and marketing efforts to regions like Albania and Portugal, which significantly contribute to revenue. Additionally, explore ways to mitigate cancellations in countries with higher cancellation rates.
+
+- **Enhance Corporate Booking Strategies:** With corporate bookings accounting for a substantial portion of revenue, stakeholders should consider tailored incentives and packages to attract more corporate clients. This may involve partnerships with businesses or offering amenities that cater specifically to corporate travelers.
+  
+- **Deposit Strategies:** Consider the impact of deposit types on both revenue and cancellation rates. While no deposits are associated with higher revenue, stakeholders should carefully evaluate the trade-offs and possibly experiment with flexible deposit policies to find the optimal balance between revenue generation and cancellations.
+  
+- **Time-to-Event Analysis:** Utilize insights from time-to-event analysis to refine operational strategies. Understanding lead times can aid in better resource allocation, staffing, and service planning, particularly during periods of increased average length of stay.
+- **Seasonal Staffing:** Leverage patterns in the average length of stay to inform seasonal staffing strategies. Expect increased demand at the beginning of each quarter and adjust staffing levels accordingly to ensure operational efficiency.
+- **Enhance Offline Travel Agent Engagement:** Given the lower contribution from offline travel agents, stakeholders may want to explore strategies to enhance their engagement, possibly through targeted marketing campaigns or exclusive partnerships.
+- **Customer Segmentation:** Explore ways to increase revenue from customer segments like Contract and Transient-Party. Tailor services and promotions to attract these segments and maximize revenue potential.
+- **Continuous Monitoring and Adaptation:** Regularly monitor key performance indicators and be adaptable. The hospitality industry is dynamic, and staying responsive to changing trends will be crucial for sustained success.
+Implementing these recommendations should help Splendor Hotel Group optimize its operations, enhance revenue generation, and improve overall customer satisfaction.
 
 
 
